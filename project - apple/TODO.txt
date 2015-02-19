@@ -1,0 +1,39 @@
+Install HTTP-Server node package => npm install http-server -g
+
+Add CSS compression task to GRUNT
+    npm install grunt-contrib-cssmin --save-dev
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
+    'cssmin',
+    cssmin: {
+                minify: {
+                    expand: true,
+                    cwd: 'assets/css/',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'assets/css/',
+                    ext: '.min.css'
+                }
+            },
+
+Setup first Jasmine test
+    create => mainSpec.js
+    add describe block
+    add it block
+
+    expect().toBe(true);
+    expect().not.toBe(true);
+
+    expect().toEqual();
+    expect().not.toEqual();
+
+    // Regular expressions
+    expect().toMatch(/tim/);
+    expect().toMatch("tim");
+    expect().not.toMatch("bob");
+
+    expect(a.foo).toBeDefined();
+    expect(a.bar).not.toBeDefined();
+
+    expect(a).toBeNull();
+    expect(foo).not.toBeNull();
+
+Web UI Template Selection
