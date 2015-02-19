@@ -1,0 +1,325 @@
+#right-side {
+	margin:13px 13px 0px;
+	width:260px;
+	color:rgb(89, 89, 89);
+	position:relative;
+	z-index:10;
+	min-height:20px;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display:block;
+}
+.with-right-side #right-side-wrapper {
+	float:right;
+	display:block;
+}
+#right-side-wrapper {
+	width:0px;
+	right:0px;
+	display:none;
+	position:relative;
+}
+.with-right-side #main {
+	margin-right:286px;
+}
+#main::after {
+	clear:both;
+	display:table;
+	content:"";
+}
+#main {
+	/*border-width: 0px 1px 1px;
+	 border-style: none solid solid;
+	 border-color: currentColor rgb(182, 186, 191) rgb(182, 186, 191);
+	 border-image: none;
+	 margin-bottom: 40px;
+	 position: relative;
+	 z-index: 10;*/
+	/*min-height: 450px;*/
+	/*max-width: 1100px;*/
+	/*background-color: white;*/
+}
+#wrapper::after {
+	/*clear: both;
+	 display: table;
+	 content: "";*/
+}
+#wrapper {
+}
+#wrapper-container {
+	overflow:hidden;
+}
+.with-right-side {
+	/*min-width: 796px;*/
+}
+body {
+	/*background-position: left top;*/
+	/*min-width: 510px;*/
+	background-image:url("http://lms.neumont.edu/images/blue/bg.jpg?1373470557");
+	background-repeat:repeat;
+	background-color:transparent;
+}
+body, html {
+	/*height: 100%;*/
+}
+body {
+	font-size:13px;
+}
+body {
+	margin:0px;
+	color:rgb(51, 51, 51);
+	line-height:20px;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:14px;
+	background-color:white;
+}
+html {
+	font-size:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+}
+#right-side h2, #right-side .h2 {
+	margin:13px 0px;
+	color:rgb(85, 85, 85);
+	line-height:1.2em;
+	overflow:hidden;
+	padding-bottom:3px;
+	font-size:14px;
+	font-weight:bold;
+	border-bottom-color:rgb(187, 187, 187);
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	box-shadow:0px 1px 0px white;
+}
+h1, h2, .h1, .h2 {
+	font-size:1.8em;
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+	font-weight:normal;
+}
+h2 {
+	font-size:31.5px;
+}
+h1, h2, h3 {
+	line-height:40px;
+}
+h1, h2, h3, h4, h5, h6 {
+	margin:10px 0px;
+	color:inherit;
+	line-height:20px;
+	font-family:inherit;
+	font-weight:bold;
+	text-rendering:optimizelegibility;
+}
+.right-side-list {
+	list-style:none;
+	margin:10px 0px;
+	padding:0px;
+}
+ul, ol {
+	margin:0px 0px 10px 25px;
+	padding:0px;
+}
+#right-side .events_list {
+	margin-bottom:20px;
+}
+.right-side-list li {
+	margin:0px;
+	padding:0px;
+}
+li {
+	line-height:20px;
+}
+.right-side-list li:last-child a {
+	border-bottom-color:currentColor;
+	border-bottom-width:medium;
+	border-bottom-style:none;
+	box-shadow:none;
+}
+.right-side-list li .more_link {
+	padding-top:6px;
+}
+.right-side-list li em, .right-side-list li .more_link {
+	line-height:13px;
+	font-size:10px;
+	font-style:italic;
+}
+.right-side-list li a {
+	padding-top:4px;
+	padding-bottom:4px;
+	font-size:12px;
+	border-bottom-color:rgb(214, 214, 214);
+	border-bottom-width:1px;
+	border-bottom-style:solid;
+	display:block;
+	box-shadow:0px 1px 0px rgba(255, 255, 255, 0.85);
+}
+a {
+	color:rgb(0, 136, 204);
+	text-decoration:none;
+}
+a[class*=icon-]::before, a[class^=icon-]::before {
+	margin-right:4px;
+}
+i[class*=icon-]::before, i[class^=icon-]::before, a[class*=icon-]::before, a[class^=icon-]::before {
+	top:-1px;
+	text-transform:none !important;
+	font-family:"canvasregular";
+	font-size:16px;
+	font-style:normal !important;
+	font-weight:normal !important;
+	vertical-align:middle;
+	display:inline-block;
+	position:relative;
+	text-rendering:optimizeLegibility;
+}
+a.icon-grading {
+	background-position:left;
+	padding:1px 0px 1px 20px;
+	line-height:20px;
+	display:inline-block;
+	background-image:url("http://lms.neumont.edu/images/grading_icon.png?1373470557");
+	background-repeat:no-repeat;
+}
+.tooltip {
+	position:relative;
+	z-index:2;
+}
+.clear {
+	clear:both;
+}
+.right-side-list .tooltip .tooltip_wrap {
+	left:-185px;
+	top:0px;
+	width:185px;
+	height:70px;
+	font-size:0.9em;
+	background-image:none;
+}
+.tooltip .tooltip_wrap {
+	background:url("/images/tooltip_carat.png?1373470557") no-repeat left bottom;
+	bottom:15px;
+	padding-bottom:3px;
+	position:absolute;
+	opacity:0.9;
+}
+.tooltip .tooltip_wrap, .tooltip .tooltip_text {
+	display:block;
+	visibility:hidden;
+}
+.right-side-list li b, .right-side-list li em {
+	font-weight:normal;
+	display:block;
+}
+.ellipsis {
+	overflow:hidden;
+	white-space:nowrap;
+	-ms-text-overflow:ellipsis;
+	-o-text-overflow:ellipsis;
+}
+.right-side-list li em {
+	color:rgb(188, 188, 188);
+	padding-bottom:2px;
+}
+em {
+	font-style:italic;
+}
+strong {
+	font-weight:bold;
+}
+.right-side-list .tooltip .tooltip-carat {
+	width:1px;
+	height:1px;
+	margin-top:12px;
+	border-top-color:transparent;
+	border-bottom-color:transparent;
+	border-left-color:rgb(68, 68, 68);
+	border-top-width:7px;
+	border-bottom-width:7px;
+	border-left-width:14px;
+	border-top-style:solid;
+	border-bottom-style:solid;
+	border-left-style:solid;
+	float:right;
+	display:block;
+}
+.right-side-list .tooltip .tooltip_text {
+	margin-right:15px;
+	min-height:30px;
+}
+.tooltip .tooltip_text {
+	background-position:left bottom;
+	padding:2px 7px;
+	border-radius:5px;
+	left:0px;
+	color:white;
+	font-weight:normal;
+	white-space:nowrap;
+	max-width:250px;
+	background-color:rgb(68, 68, 68);
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-ms-border-radius:5px;
+	-o-border-radius:5px;
+}
+a.icon-grading-gray {
+	background-position:left;
+	padding:1px 0px 1px 20px;
+	line-height:20px;
+	display:inline-block;
+	background-image:url("http://lms.neumont.edu/images/grading_icon_gray.png?1373470557");
+	background-repeat:no-repeat;
+}
+#right-side .events_list[class*=icon-].event-list-view-calendar::before, #right-side .events_list[class^=icon-].event-list-view-calendar::before {
+	font-size:16px;
+	vertical-align:middle;
+}
+#right-side .events_list .event-list-view-calendar {
+	font-size:10px;
+	font-weight:normal;
+	float:right;
+}
+.icon-calendar-day::before {
+	content:"\e055";
+}
+.standalone-icon::before {
+	color:rgb(85, 85, 85);
+}
+.to-do-list.right-side-list li {
+	position:relative;
+}
+.to-do-list.right-side-list li a.item {
+	padding-left:24px;
+}
+.to-do-list.right-side-list li a.disable_item_link {
+	padding:0px;
+	top:0px;
+	right:0px;
+	border-bottom-color:currentColor;
+	border-bottom-width:medium;
+	border-bottom-style:none;
+	position:absolute;
+	z-index:2;
+	opacity:0.3;
+	box-shadow:none;
+	background-image:none;
+}
+img {
+	border:0px currentColor;
+	border-image:none;
+	height:auto;
+	vertical-align:middle;
+	-ms-interpolation-mode:bicubic;
+	max-width:100%;
+}
+.to-do-list.right-side-list li a.item b {
+	padding-right:20px;
+}
+.hideShowButtons {
+	background-color:red;
+}
+
+.noteTextArea {
+	width: 100px; 
+	height: 100px;
+}

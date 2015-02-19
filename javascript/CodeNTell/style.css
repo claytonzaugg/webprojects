@@ -1,0 +1,181 @@
+h1 {
+    margin:0px;
+}
+p {
+    margin-top:-5px;
+    margin-left:20px;
+}
+ul {
+    margin: 0px;
+    padding:0px;
+}
+.addButton {
+    width:30px;
+    height:16px;
+    font-size: 9px;
+    text-align: right;
+    color:white;
+    background-color:#444444;
+}
+.theHusbandList {
+    margin-left: 18px;
+    font-family:"Arial Narrow";
+    color: #444;
+}
+.aTask {
+    max-width:325px;
+    background-color: #ddd;
+    border:1px solid #999;
+    font-family: sans-serif;
+    font-size:12px;
+    color:#666;
+    /*margin-top: 4px;*/
+}
+.completeTask {
+    font-family: sans-serif;
+    font-size:11px;
+    font-weight: 100;
+    color:#fff;
+    text-align: right;
+    margin-left: 220px;
+    background-color: #777;
+    width:100px;
+    text-align: center;
+}
+
+.backgroundColorGray {
+	background-color: #888;
+}
+
+.backgroundColorRed {
+	background-color: red;
+}
+
+.height400px {
+	height: 400px;
+}
+
+.height50px {
+	height: 50px;
+}
+
+.height40px {
+	height: 40px;
+}
+
+.height30px {
+	height: 30px;
+}
+
+.width400px {
+	width: 400px;
+}
+
+.width100px {
+	width: 100px;
+}
+
+.width50px {
+	width: 50px;
+}
+
+.centerContent {
+	width: 400px;
+	margin: 0 auto;
+}
+
+.marginTop-30px {
+	margin-top: -30px;
+}
+
+.marginTop-20px {
+	margin-top: -20px;
+}
+
+.marginTop-10px {
+	margin-top: -10px;
+}
+
+.marginTop30px {
+	margin-top: 30px;
+}
+
+.marginTop20px {
+	margin-top: 20px;
+}
+
+.marginTop10px {
+	margin-top: 10px;
+}
+
+.marginTop4px {
+	margin-top: 4px;
+}
+
+.marginLeft100px {
+	margin-left: 100px;
+}
+
+.marginLeft70px {
+	margin-left: 70px;
+}
+
+.marginLeft20px {
+	margin-left: 20px;
+}
+
+.noMargin {
+	margin: 0;
+}
+
+.paddingTop20px {
+	padding-top: 20px;
+}
+
+.paddingTop10px {
+	padding-top: 10px;
+}
+
+.paddingLeft5px {
+	padding-left: 5px;
+}
+
+.paddingLeft {
+	padding:0.2em 0.6em;
+}
+
+.noPadding {
+	padding: 0;
+}
+
+.noListBullet {
+	list-style-type: none;
+}
+
+.fontWhite {
+	color: white;
+}
+
+.fontSansSerif {
+	font-family: sans-serif;
+}
+
+.fontSize12px {
+	font-size: 12px;
+}
+
+.fontSize11px {
+	font-size: 11px;
+}
+
+.fontSize10px {
+	font-size: 10px;
+}
+
+.floatLeft {
+	float:left;
+}
+
+.floatRight {
+	float:right;
+}

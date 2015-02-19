@@ -1,0 +1,13 @@
+{
+	"manifest_version": 2,
+
+	"name": "Neumont Web Reminder",
+	"description": "This extension shows you relevant LMS information and grade updates.",
+	"version": "1.0",
+	"permissions": ["storage", "https://lms.neumont.edu/"],
+
+	"browser_action": {
+		"default_icon": "icon.png",
+		"default_popup": "index.html"
+	}
+}

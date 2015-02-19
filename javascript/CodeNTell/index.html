@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<title>The Husbandminder</title>
+	</head>
+
+	<body class="centerContent">
+		<header>
+			<h1>The Husband Reminder</h1>
+
+			<p>
+				She says something, write it down!
+			</p>
+		</header>
+		<section class="marginTop-10px">
+			<form name="theList">
+				<input type="text" name="itemFromList" />
+				<button type="button" class="addButton">
+					Add
+				</button>
+				<div class="fontSansSerif fontSize11px marginLeft100px">
+					Critical?
+					<input id="critCheckBox" type="checkbox">
+				</div>
+			</form>
+		</section>
+		<section class="height40px width400px backgroundColorGray">
+			<div class="theHusbandList"> </div>
+			<article>
+				<ul class="noListBullet"> </ul>
+			</article>
+			<article class="paddingTop20px paddingLeft5px">
+					<div class="fontWhite noMargin noPadding fontSansSerif fontSize12px width100px floatLeft"> Total Critical </div>
+					<div class="fontWhite noMargin noPadding fontSansSerif fontSize12px width100px floatLeft"> Total Normal </div>
+			</article>
+		</section>
+	</body>
+
+</html>
+<script src='script.js'></script>
